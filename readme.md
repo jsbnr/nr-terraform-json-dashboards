@@ -1,4 +1,7 @@
 # Terraform New Relic Dashboards with JSON
+
+**This project is superceded by [this one](https://github.com/jsbnr/nr-terraform-json-nr1-dashboards) that supports NR1 Dashboards**
+
 Example project showing how a dashboard can be managed in terraform but configured via a json template. This allows the dashboard to be designed in the UI, downloaded via the REST API and used as an input template to terraform, thus reducing the toil of maintaining widgets with HCL.
 
 Ensure that the new relic license key is set in the env var NEWRELIC_API_KEY
